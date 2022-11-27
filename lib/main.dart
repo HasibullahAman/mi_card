@@ -139,7 +139,7 @@ Widget build(BuildContext contex){
                 // crossAxisAlignment: CrossAxisAlignment.stretch,
                 // if in our Column we have a child that hav more width
                 // all child fix from end to that child
-                // crossAxisAlignment: CrossAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.end,
                 // crossAxisAlignment: CrossAxisAlignment.stretch,
                 // if i Get stretch don't matter it child have width or not...all of the get stretch
                 children: [
