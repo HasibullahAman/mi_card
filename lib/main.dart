@@ -178,14 +178,26 @@ Widget build(BuildContext contex){
                 // ],
                 children: [
                   CircleAvatar(
-                    radius: 50.0,
+                    radius: 70.0,
                     backgroundImage: AssetImage('imeges/me.jpg'),
                   ),
                   Text ('Hasibullah Aman',
                   style:TextStyle(
+                    color: Colors.white,
+
                     fontFamily: 'Pacifico',
                     fontSize: 40.0,
-                  ),)
+                    fontWeight: FontWeight.bold,
+                  ),
+                  ),
+                  Text("FLUTTER DEVLOPER",
+                  style:TextStyle(
+                    color:Colors.teal.shade100,
+                    fontFamily: 'ss',
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 2.5,
+                    fontSize: 25,
+                  ))
                 ],
               )
             )

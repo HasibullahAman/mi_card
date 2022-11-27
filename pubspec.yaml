@@ -57,4 +57,7 @@ flutter:
   fonts:
     - family: Pacifico
       fonts:
-      - asset: fonts/Pacifico-Regular.ttf
+      - asset: fonts/Pacifico.ttf
+    - family: SS
+      fonts:
+      - asset: fonts/ss.ttf
