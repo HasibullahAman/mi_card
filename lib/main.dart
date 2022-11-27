@@ -133,12 +133,16 @@ Widget build(BuildContext contex){
                 // mainAxisAlignment: MainAxisAlignment.center, // it get all column content and fix in center,
                 // mainAxisAlignment: MainAxisAlignment.end,
                 // mainAxisAlignment: MainAxisAlignment.spaceAround,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                // mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                // if in our Column we have a child that hav more width
+                // all child fix from end to that child
                 children: [
 
                   Container(
                     color: Colors.white,
-                    width: 330.0,
+                    width: double.infinity,
                     height: 230.0,
                     child: Text("Container 1"),
                   ),
