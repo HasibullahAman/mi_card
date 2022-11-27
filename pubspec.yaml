@@ -58,6 +58,3 @@ flutter:
     - family: Pacifico
       fonts:
       - asset: fonts/Pacifico-Regular.ttf
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
