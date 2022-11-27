@@ -183,6 +183,7 @@ Widget build(BuildContext contex){
                   ),
                   Text ('Hasibullah Aman',
                   style:TextStyle(
+                    fontFamily: 'Pacifico',
                     fontSize: 40.0,
                   ),)
                 ],
