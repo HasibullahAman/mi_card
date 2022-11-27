@@ -128,33 +128,36 @@ Widget build(BuildContext contex){
         home:Scaffold(
             backgroundColor: Colors.blueGrey,
             body:SafeArea(
-              child: Column(
+              child: Row(
                 // verticalDirection: VerticalDirection.down,
                 // mainAxisAlignment: MainAxisAlignment.center, // it get all column content and fix in center,
                 // mainAxisAlignment: MainAxisAlignment.end,
                 // mainAxisAlignment: MainAxisAlignment.spaceAround,
                 // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 // mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.end,
+                // crossAxisAlignment: CrossAxisAlignment.end,
                 // if in our Column we have a child that hav more width
                 // all child fix from end to that child
+                // crossAxisAlignment: CrossAxisAlignment.center,
+                // crossAxisAlignment: CrossAxisAlignment.stretch,
+                // if i Get stretch don't matter it child have width or not...all of the get stretch.
                 children: [
-
                   Container(
                     color: Colors.white,
-                    width: double.infinity,
+                    width: 110,
                     height: 230.0,
                     child: Text("Container 1"),
                   ),
+                  SizedBox(height:30,),
                   Container(
                     color: Colors.yellowAccent,
-                    width: 330.0,
+                    width: 110.0,
                     height: 230.0,
                     child: Text("Container 2"),
                   ),
                   Container(
                     color: Colors.redAccent,
-                    width: 330.0,
+                    width: 110.0,
                     height:230.0,
                     child: Text("Container 3"),
                   ),
