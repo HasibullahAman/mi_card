@@ -131,7 +131,7 @@ Widget build(BuildContext contex){
               child: Column(
                 // verticalDirection: VerticalDirection.down,
                 // mainAxisAlignment: MainAxisAlignment.center, // it get all column content and fix in center,
-                mainAxisAlignment: MainAxisAlignment.end,
+                // mainAxisAlignment: MainAxisAlignment.end,
                 // mainAxisAlignment: MainAxisAlignment.spaceAround,
                 // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 // mainAxisAlignment: MainAxisAlignment.start,
@@ -139,30 +139,52 @@ Widget build(BuildContext contex){
                 // crossAxisAlignment: CrossAxisAlignment.stretch,
                 // if in our Column we have a child that hav more width
                 // all child fix from end to that child
-                crossAxisAlignment: CrossAxisAlignment.end,
+                // crossAxisAlignment: CrossAxisAlignment.end,
                 // crossAxisAlignment: CrossAxisAlignment.stretch,
                 // if i Get stretch don't matter it child have width or not...all of the get stretch
+                // children: [
+                //   Container(
+                //     margin:EdgeInsets.all(0),
+                //     color: Colors.red,
+                //     width: 100,
+                //     height: double.infinity,
+                //     child: Text("Container 1"),
+                //   ),
+                //   Column(
+                //     mainAxisAlignment: MainAxisAlignment.center,
+                //     children:[
+                //     Container(
+                //
+                //       color: Colors.yellow,
+                //       width: 100.0,
+                //       height: 100.0,
+                //       child: Text("Container 2"),
+                //     ),
+                //       Container(
+                //         color: Colors.green,
+                //         width: 100.0,
+                //         height:100.0,
+                //         child: Text("Container 3"),
+                //       ),
+                //     ]
+                //   ),
+                //
+                //   Container(
+                //     color: Colors.blue,
+                //     width: 100.0,
+                //     height:double.infinity,
+                //     child: Text("Container 3"),
+                //   ),
+                // ],
                 children: [
-                  Container(
-                    color: Colors.white,
-                    width: 110,
-                    height: 220,
-                    child: Text("Container 1"),
+                  CircleAvatar(
+                    radius: 50.0,
+                    backgroundImage: AssetImage('imeges/me.jpg'),
                   ),
-
-                  Container(
-                    color: Colors.yellowAccent,
-                    width: 110.0,
-                    height: 230.0,
-                    child: Text("Container 2"),
-                  ),
-                  Container(
-                    color: Colors.redAccent,
-                    width: 110.0,
-                    height:230.0,
-                    child: Text("Container 3"),
-                  ),
-
+                  Text ('Hasibullah Aman',
+                  style:TextStyle(
+                    fontSize: 40.0,
+                  ),)
                 ],
               )
             )
