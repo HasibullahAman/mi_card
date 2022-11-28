@@ -129,6 +129,7 @@ Widget build(BuildContext contex){
             backgroundColor: Colors.blueGrey,
             body:SafeArea(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 // verticalDirection: VerticalDirection.down,
                 // mainAxisAlignment: MainAxisAlignment.center, // it get all column content and fix in center,
                 // mainAxisAlignment: MainAxisAlignment.end,
