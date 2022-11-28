@@ -197,8 +197,60 @@ Widget build(BuildContext contex){
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2.5,
                     fontSize: 25,
-                  ))
+                  )),
+                  Container(
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 50,horizontal: 40),
+                    padding: EdgeInsets.all(20),
+                    child:Row(
+                          children: [
+                    Icon(
+                    Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width:40,
+                    ),
+                    Text("0093 799 7571 31",
+                      style:TextStyle(
+                          fontSize: 20
+                      ),
+                    ),
+                    ],
+
+                    ),
+                  ),
+                  Container(
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 50,horizontal: 40),
+                    padding: EdgeInsets.all(20),
+                    child:Column(
+                      children: [
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.phone,
+                              color: Colors.teal,
+                            ),
+                            SizedBox(
+                              width:40,
+                            ),
+                            Text("0093 799 7571 31",
+                              style:TextStyle(
+                                  fontSize: 20
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 50,
+                        ),
+                      ],
+                    ),
+                  )
+
                 ],
+
               )
             )
             )
