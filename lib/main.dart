@@ -198,7 +198,6 @@ Widget build(BuildContext contex){
                     fontSize: 25,
                   )),
                   Card(
-                    color: Colors.white,
                     margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
                     child:ListTile(
                       leading: Icon(
@@ -216,7 +215,6 @@ Widget build(BuildContext contex){
                   ),
 
                   Card(
-                    color: Colors.white,
                     margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
                     child:ListTile(
                           leading: Icon(
