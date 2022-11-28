@@ -181,10 +181,9 @@ Widget build(BuildContext contex){
                     radius: 70.0,
                     backgroundImage: AssetImage('imeges/me.jpg'),
                   ),
-                  Text ('Hasibullah Aman',
+                  const Text ('Hasibullah Aman',
                   style:TextStyle(
                     color: Colors.white,
-
                     fontFamily: 'Pacifico',
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
@@ -200,10 +199,10 @@ Widget build(BuildContext contex){
                   )),
                   Container(
                     color: Colors.white,
-                    margin: EdgeInsets.symmetric(vertical: 50,horizontal: 40),
-                    padding: EdgeInsets.all(20),
+                    margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
+                    padding: const EdgeInsets.all(20),
                     child:Row(
-                          children: [
+                          children: const [
                     Icon(
                     Icons.phone,
                       color: Colors.teal,
@@ -222,18 +221,18 @@ Widget build(BuildContext contex){
                   ),
                   Container(
                     color: Colors.white,
-                    margin: EdgeInsets.symmetric(vertical: 50,horizontal: 40),
-                    padding: EdgeInsets.all(20),
+                    margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
+                    padding: const EdgeInsets.all(20),
                     child:Column(
                       children: [
                         Row(
-                          children: [
+                          children: const [
                             Icon(
                               Icons.phone,
                               color: Colors.teal,
                             ),
                             SizedBox(
-                              width:40,
+                              width:50,
                             ),
                             Text("0093 799 7571 31",
                               style:TextStyle(
@@ -241,9 +240,6 @@ Widget build(BuildContext contex){
                               ),
                             ),
                           ],
-                        ),
-                        SizedBox(
-                          height: 50,
                         ),
                       ],
                     ),
