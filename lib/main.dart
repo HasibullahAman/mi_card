@@ -197,56 +197,42 @@ Widget build(BuildContext contex){
                     letterSpacing: 2.5,
                     fontSize: 25,
                   )),
-                  Container(
+                  Card(
                     color: Colors.white,
                     margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
-                    padding: const EdgeInsets.all(20),
-                    child:Row(
-                          children: const [
-                    Icon(
-                    Icons.phone,
-                      color: Colors.teal,
-                    ),
-                    SizedBox(
-                      width:40,
-                    ),
-                    Text("0093 799 7571 31",
-                      style:TextStyle(
-                          fontSize: 20
+                    child:ListTile(
+                      leading: Icon(
+                        Icons.phone,
+                        color: Colors.teal,
+                      ),
+                      title: Text("0093 799 7571 31",
+                        style:TextStyle(
+                          fontSize: 20,
+                          fontFamily: 'ss',
+                          color: Colors.teal.shade900,
+                        ),
                       ),
                     ),
-                    ],
-
-                    ),
                   ),
-                  Container(
+
+                  Card(
                     color: Colors.white,
                     margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
-                    padding: const EdgeInsets.all(20),
-                    child:Column(
-                      children: [
-                        Row(
-                          children: const [
-                            Icon(
-                              Icons.phone,
-                              color: Colors.teal,
-                            ),
-                            SizedBox(
-                              width:50,
-                            ),
-                            Text("0093 799 7571 31",
+                    child:ListTile(
+                          leading: Icon(
+                            Icons.email,
+                        color: Colors.teal,
+                          ),
+                        title: Text("hasib.aman7@gmail.com",
                               style:TextStyle(
-                                  fontSize: 20
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
+                              fontSize: 20,
+                              fontFamily: 'ss',
+                              color: Colors.teal.shade900,
+                                ),
+                      ),
                     ),
-                  )
-
+                  ),
                 ],
-
               )
             )
             )
