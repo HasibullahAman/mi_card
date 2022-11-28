@@ -198,6 +198,16 @@ Widget build(BuildContext contex){
                     letterSpacing: 2.5,
                     fontSize: 25,
                   )),
+                  const SizedBox(
+                    height: 20,
+
+                    width: 150,
+
+                    child: Divider(
+                      color: Colors.white,
+                    ),
+
+                  ),
                   Card(
                     margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
                     child:ListTile(
@@ -214,6 +224,7 @@ Widget build(BuildContext contex){
                       ),
                     ),
                   ),
+
 
                   Card(
                     margin: const EdgeInsets.symmetric(vertical: 10,horizontal: 40),
